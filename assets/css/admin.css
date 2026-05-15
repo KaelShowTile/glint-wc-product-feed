@@ -1,0 +1,58 @@
+.gw-feed-settings-wrap {
+    margin-top: 20px;
+}
+.gw-feed-settings-wrap .form-table th {
+    width: 200px;
+}
+.gw-feed-section {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+.gw-feed-section h4 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.gw-field-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #eee;
+}
+.gw-field-row:last-child {
+    border-bottom: none;
+}
+.gw-field-row input[type="text"],
+.gw-field-row select {
+    width: 200px;
+}
+.gw-field-row .gw-col {
+    display: flex;
+    flex-direction: column;
+}
+.gw-field-row .gw-col label {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 3px;
+}
+.gw-remove-btn {
+    margin-top: 18px !important;
+}
+
+/* Product detail styles */
+.gw-pd-row {
+    background: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 10px;
+}
+.gw-pd-sub-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
